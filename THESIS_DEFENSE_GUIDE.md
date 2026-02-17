@@ -219,7 +219,7 @@ Each tier has **statistically different** distributions:
 ### Q1: "Isn't synthetic data just making things up?"
 
 **Answer:**
-*"Synthetic data generation is not arbitrary - it's a knowledge engineering process. Every correlation and distribution is justified by published literature or documented industry patterns. For example, the correlation between bank tier and infrastructure quality comes from CBN annual reports showing larger banks have higher IT budgets. This is scientifically equivalent to mathematical modeling in engineering - we formalize expert knowledge into computable form. The alternative would be purely qualitative surveys, which also can't capture complex non-linear relationships or provide quantitative predictions."*
+*"Synthetic data generation is knowledge engineering - not arbitrary invention. Every correlation and distribution is justified by published literature or documented industry patterns. For example, the bank tier → infrastructure quality correlation comes from CBN annual reports showing larger banks have higher IT budgets. This is scientifically equivalent to mathematical modeling in engineering - we formalize expert knowledge into computable form, enabling quantitative predictions that purely theoretical analysis cannot provide."*
 
 ### Q2: "How do you know your model would work in reality?"
 

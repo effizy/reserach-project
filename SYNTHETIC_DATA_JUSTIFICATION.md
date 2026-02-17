@@ -229,20 +229,20 @@ Unlike naive random generation, our data includes **realistic correlations**:
 
 ## 6. Comparison with Alternative Approaches
 
-### 6.1 Why Not Survey-Only Research?
+### 6.1 Why Not Observational Data Only?
 
-**Limitations of Surveys:**
-- Subjective perceptions, not objective outcomes
-- Response bias (successful projects over-represented)
-- Limited sample sizes
-- Cannot capture complex interactions
-- Retrospective recall bias
+**Limitations:**
+- Banking data unavailable due to confidentiality
+- Legal approvals take 1-2 years
+- Cannot access proprietary upgrade strategies
+- Security concerns prevent system vulnerability disclosure
 
 **Our Approach:**
-- Combines survey framework (qualitative) with synthetic quantitative data
+- Knowledge-based synthetic generation
 - ML model captures non-linear relationships
 - Large sample size (5,000 scenarios)
 - Systematic exploration of parameter space
+- Grounded in documented literature and industry patterns
 
 ### 6.2 Why Not Case Study Approach?
 
