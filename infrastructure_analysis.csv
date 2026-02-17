@@ -1,0 +1,12 @@
+Criteria,On-Premise,Hybrid Cloud,Private Cloud,Multi-Cloud
+Upgrade Success Rate,6.5,8.5,7.5,7.0
+Average Downtime,5.0,8.0,7.5,7.0
+Cost Efficiency,4.0,7.5,6.0,5.5
+Scalability,5.0,8.5,7.5,9.0
+Regulatory Compliance,8.0,8.5,8.0,7.0
+Disaster Recovery,6.0,8.5,7.5,9.0
+Performance,7.0,8.0,7.5,8.5
+Vendor Lock-in Risk,9.0,7.0,6.0,4.0
+Power Dependency,3.0,8.0,7.0,8.5
+Implementation Complexity,6.0,7.0,6.5,5.0
+WEIGHTED TOTAL SCORE,6.02,8.1,7.25,7.26
