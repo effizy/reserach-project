@@ -12,11 +12,11 @@ import seaborn as sns
 class InfrastructureComparativeAnalysis:
     """
     Comparative analysis of IT infrastructure models for Core Banking upgrades
-    Focuses on: On-Premise, Hybrid Cloud, Private Cloud, Multi-Cloud
+    Focuses on: On-Premise, Hybrid Cloud, Private Cloud, Public Cloud
     """
     
     def __init__(self):
-        self.models = ['On-Premise', 'Hybrid Cloud', 'Private Cloud', 'Multi-Cloud']
+        self.models = ['On-Premise', 'Hybrid Cloud', 'Private Cloud', 'Public Cloud']
         self.criteria = [
             'Upgrade Success Rate',
             'Average Downtime',
@@ -42,7 +42,7 @@ class InfrastructureComparativeAnalysis:
             'On-Premise': [6.5, 5.0, 4.0, 5.0, 8.0, 6.0, 7.0, 9.0, 3.0, 6.0],
             'Hybrid Cloud': [8.5, 8.0, 7.5, 8.5, 8.5, 8.5, 8.0, 7.0, 8.0, 7.0],
             'Private Cloud': [7.5, 7.5, 6.0, 7.5, 8.0, 7.5, 7.5, 6.0, 7.0, 6.5],
-            'Multi-Cloud': [7.0, 7.0, 5.5, 9.0, 7.0, 9.0, 8.5, 4.0, 8.5, 5.0]
+            'Public Cloud': [8.0, 8.5, 8.0, 9.5, 7.5, 9.0, 9.0, 5.0, 9.5, 6.0]
         }
         
         df = pd.DataFrame(comparison_data)
@@ -237,11 +237,11 @@ class InfrastructureComparativeAnalysis:
                 'implementation': 'Deploy to subset of instances first',
                 'risk_mitigation': 'Monitor metrics before full deployment'
             },
-            'Multi-Cloud': {
-                'preferred_strategies': ['Blue-Green', 'Canary'],
-                'rationale': 'Leverage multiple cloud providers for redundancy',
-                'implementation': 'Deploy across clouds with traffic management',
-                'risk_mitigation': 'Complex but provides maximum resilience'
+            'Public Cloud': {
+                'preferred_strategies': ['Blue-Green', 'Rolling'],
+                'rationale': 'Leverage cloud scalability and global infrastructure',
+                'implementation': 'Deploy using cloud-native services and automation',
+                'risk_mitigation': 'Ensure CBN compliance and data localization'
             }
         }
         

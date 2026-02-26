@@ -43,7 +43,7 @@ Real banking data unavailable due to confidentiality, security, and competitive 
 - **Outputs**: Success probability (0-100%), risk score, recommendations
 
 #### 3. **Infrastructure Comparison** (infrastructure_analysis.py)
-- Evaluates 4 models: On-Premise, Hybrid Cloud, Private Cloud, Multi-Cloud
+- Evaluates 4 models: On-Premise, Hybrid Cloud, Private Cloud, Public Cloud
 - 10 criteria including power dependency, CBN compliance
 - **Recommendation**: Hybrid Cloud (8.10/10) optimal for Nigerian banks
 

@@ -78,7 +78,7 @@
 1. ✓ On-Premise (Score: 6.02/10)
 2. ✓ Hybrid Cloud ← **RECOMMENDED** (Score: 8.10/10)
 3. ✓ Private Cloud (Score: 7.25/10)
-4. ✓ Multi-Cloud (Score: 7.26/10)
+4. ✓ Public Cloud (Score: 7.85/10)
 
 **Evaluation Criteria** (10 factors):
 - ✓ Upgrade Success Rate
@@ -268,7 +268,7 @@ This implementation fully supports your stated research methodology:
 
 *1. **Machine Learning Framework** (`main.py`): Analyzes 47 features across 5,000 realistic upgrade scenarios using Random Forest classification. The model incorporates Nigerian banking sector characteristics through bank tier classification (Tier 1/2/3, Microfinance) and achieves 94% ROC-AUC score with 99.8% accuracy.*
 
-*2. **Infrastructure Comparison Module** (`infrastructure_analysis.py`): Evaluates four IT infrastructure models (On-Premise, Hybrid Cloud, Private Cloud, Multi-Cloud) across 10 criteria including Nigerian-specific factors (power stability, CBN compliance, data localization).*
+*2. **Infrastructure Comparison Module** (`infrastructure_analysis.py`): Evaluates four IT infrastructure models (On-Premise, Hybrid Cloud, Private Cloud, Public Cloud) across 10 criteria including Nigerian-specific factors (power stability, CBN compliance, data localization).*
 
 *3. **Synthetic Data Generator**: Creates realistic banking scenarios using knowledge-based generation grounded in ITIL, DevOps, and PMI frameworks. Data incorporates documented correlations (bank tier → infrastructure quality, preparation → success) and Nigerian context (60-100 power stability range, CBN regulatory requirements).*
 

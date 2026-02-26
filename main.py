@@ -1,9 +1,6 @@
 """
 Core Banking Application Upgrade Management System
 Using Machine Learning to Predict Upgrade Success
-
-Author: Final Year Project
-Date: February 2026
 """
 
 import pandas as pd
@@ -314,20 +311,20 @@ class CoreBankingDataGenerator:
         models = []
         for tier in bank_tier:
             if tier == 'tier1':
-                # Tier 1 banks: more likely hybrid/multi-cloud
-                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'multi_cloud'],
+                # Tier 1 banks: more likely hybrid/public cloud
+                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'public_cloud'],
                                         p=[0.15, 0.50, 0.25, 0.10])
             elif tier == 'tier2':
                 # Tier 2 banks: balanced
-                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'multi_cloud'],
+                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'public_cloud'],
                                         p=[0.30, 0.40, 0.25, 0.05])
             elif tier == 'tier3':
                 # Tier 3 banks: more on-premise
-                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'multi_cloud'],
+                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'public_cloud'],
                                         p=[0.50, 0.30, 0.15, 0.05])
             else:  # microfinance
                 # Microfinance: mostly on-premise
-                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'multi_cloud'],
+                model = np.random.choice(['on_premise', 'hybrid_cloud', 'private_cloud', 'public_cloud'],
                                         p=[0.70, 0.20, 0.08, 0.02])
             models.append(model)
         
